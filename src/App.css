@@ -1,0 +1,92 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  background: linear-gradient(rgb(204, 226, 241), rgb(208, 142, 142), white);
+  width: 100vw;
+  height: 100vh;
+}
+
+#Navbar{
+  background-color: rgb(5, 5, 147);
+  padding: 5px;
+  margin-bottom: 3rem;
+  font-family: 'Courgette', cursive;
+  display: flex;
+  justify-content: space-around;
+}
+
+.title{
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+}
+.title:hover{
+  color: rgb(208, 142, 142);
+  text-shadow: 1px 1px 5px rgb(208, 142, 142)ed;
+}
+
+.active{
+  color: rgb(208, 142, 142);
+}
+
+.text{
+  margin-left: 5rem;
+  font-size: 1.3rem;
+} 
+
+.header{
+  margin-bottom: 1.5rem;
+  display: grid;
+  grid-template-columns: 20vw 20vw;
+  grid-gap: 15vh;
+  justify-content: space-between;
+}
+
+h2{
+  font-family: 'Secular One', sans-serif;
+}
+
+
+td{
+  padding: 15px !important;
+}
+
+.algn{
+  text-align: right;
+}
+
+.box{
+  width: 65vw;
+  margin: 20vh 6vw 10vh;
+}
+
+.editFields{
+  width: 25vw;
+  height: 6vh;
+  background-color: transparent;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  padding: 0 5px;
+}
+.editFields:hover{
+  border: 2px solid black;
+}
+
+
+.box2{
+  width: 85vw;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.butn2{
+  font-size: 1.3rem;
+  padding: 0.5rem 4rem;
+  border: 1px solid black;
+  border-radius: 25px;
+  margin-left: 2vw;
+}
